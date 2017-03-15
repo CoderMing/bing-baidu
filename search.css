@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: fixed;
+}
+.one {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	transition: all .5s;
+}
+.one-logo {
+	margin: 0 auto;
+	padding-top: 200px;
+	width: 544px;
+	height: 184px;
+	background: url(google.png) no-repeat center center;
+}
+.one-search {
+	margin: 0 auto;
+	display: block;
+	width: 500px;
+	height: 40px;
+	outline: none;
+	font-size: 20px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 1px 0px 1px #ddd;
+}
+.on-search:hover {
+
+}
+.main {
+	max-width: 1400px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+iframe {
+	width: 49vw;
+	height: 100vh;
+	max-width: 690px;
+}
